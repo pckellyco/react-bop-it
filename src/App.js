@@ -32,11 +32,11 @@ class App extends Component {
       backgroundRepeat: "repeat" }}>
         <Labels/>
         <BopIt />
-        <Twister scrollIt={this.toggleCorrect} />
-        <Puller dragIt={this.toggleCorrect}/>
+        <Twister />
+        <Puller />
         <Flicker />
         <Spinner />
-        <Bopper bopIt={this.toggleCorrect}/>
+        <Bopper />
         
       </div>
     );
