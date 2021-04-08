@@ -1,15 +1,18 @@
 .App {
-  height: 510px;
+  height: 1010px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover
+  background-size: 860px 430px;
+  background-repeat: repeat-y;
+  
 }
 
 .bop-it{
   position: absolute;
   top: 24px;
+  left: 227px;
 }
 
 .twister {
@@ -37,4 +40,41 @@
   height: 137px;
   top: 187px;
   left: 413px;
+}
+
+.scroll{
+  position: absolute;
+  top: 128px;
+  left: 579px;
+  z-index: 10;
+  transform: rotate(-25deg);
+}
+
+.drag{
+  position: absolute;
+  top: 324px;
+  left: 640px;
+  z-index: 10;
+  transform: rotate(-53deg);
+}
+
+.whatever-1{
+  position: absolute;
+  top: 149px;
+  left: 253px;
+  z-index: 10;
+  transform: rotate( -63deg);
+}
+
+.whatever-2{
+  position: absolute;
+  top: 330px;
+  left: 279px;
+  z-index: 10;
+  transform: rotate(54deg);
+}
+
+p {
+  font-family: 'Bubblegum Sans', cursive;
+  color: #FAFE44
 }

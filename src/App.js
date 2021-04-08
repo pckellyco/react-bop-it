@@ -9,6 +9,7 @@ import Puller from "./components/Puller"
 import Flicker from "./components/Flicker"
 import Spinner from "./components/Spinner"
 import Bopper from "./components/Bopper"
+import Labels from "./components/Labels"
 
 
 
@@ -29,13 +30,13 @@ class App extends Component {
     return (
       <div className="App" style={{ backgroundImage: `url(${this.state.correct ? boom : background})`,
       backgroundRepeat: "repeat" }}>
-        
+        <Labels/>
         <BopIt />
         <Twister />
         <Puller />
         <Flicker />
         <Spinner />
-        <Bopper bopIt={this.toggleCorrect}/>
+        <Bopper />
         
       </div>
     );
