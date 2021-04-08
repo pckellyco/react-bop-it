@@ -19,6 +19,8 @@
   position: absolute;
   top: 31px;
   left: 522px;
+  height: 111px;
+  overflow: scroll;
 }
 .puller {
   position: absolute;
@@ -78,3 +80,4 @@ p {
   font-family: 'Bubblegum Sans', cursive;
   color: #FAFE44
 }
+
